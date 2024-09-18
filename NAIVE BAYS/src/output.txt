@@ -1,0 +1,212 @@
+
+>> Below are the results after training <<
+Class probabilities:
+P(No-recurrence-events) = 0.7063197026022305
+P(Recurrence-events) = 0.2936802973977695
+
+ **  no-recurrence-events **
+
+  P(age)
+  10-19: 0.0051
+  20-29: 0.0101
+  30-39: 0.1111
+  40-49: 0.3131
+  50-59: 0.3283
+  60-69: 0.1919
+  70-79: 0.0303
+  80-89: 0.0051
+  90-99: 0.0051
+==================
+  P(menopause)
+  ge40: 0.4583
+  lt40: 0.0313
+  premeno: 0.5104
+==================
+  P(tumor-size)
+  0-4: 0.0398
+  10-14: 0.1294
+  15-19: 0.1144
+  20-24: 0.1741
+  25-29: 0.1592
+  30-34: 0.1692
+  35-39: 0.0597
+  40-44: 0.0846
+  45-49: 0.0149
+  5-9: 0.0249
+  50-54: 0.0249
+  55-59: 0.0050
+==================
+  P(inv-nodes)
+  0-2: 0.7970
+  12-14: 0.0099
+  15-17: 0.0198
+  18-20: 0.0050
+  21-23: 0.0050
+  24-26: 0.0050
+  27-29: 0.0050
+  3-5: 0.0842
+  30-32: 0.0050
+  33-35: 0.0050
+  36-39: 0.0050
+  6-8: 0.0396
+  9-11: 0.0149
+==================
+  P(node-caps)
+  no: 0.8743
+  yes: 0.1257
+==================
+  P(deg-malig)
+  1: 0.2917
+  2: 0.5104
+  3: 0.1979
+==================
+  P(breast)
+  left: 0.5079
+  right: 0.4921
+==================
+  P(breast-quad)
+  central: 0.0876
+  left_low: 0.3660
+  left_up: 0.3454
+  right_low: 0.0928
+  right_up: 0.1082
+==================
+  P(irradiat)
+  no: 0.8429
+  yes: 0.1571
+==================
+ **  recurrence-events  **
+
+  P(age)
+  10-19: 0.0115
+  20-29: 0.0115
+  30-39: 0.1839
+  40-49: 0.3103
+  50-59: 0.2529
+  60-69: 0.1954
+  70-79: 0.0115
+  80-89: 0.0115
+  90-99: 0.0115
+==================
+  P(menopause)
+  ge40: 0.3827
+  lt40: 0.0123
+  premeno: 0.6049
+==================
+  P(tumor-size)
+  0-4: 0.0222
+  10-14: 0.0222
+  15-19: 0.0778
+  20-24: 0.1556
+  25-29: 0.2111
+  30-34: 0.2556
+  35-39: 0.0889
+  40-44: 0.0778
+  45-49: 0.0222
+  5-9: 0.0111
+  50-54: 0.0444
+  55-59: 0.0111
+==================
+  P(inv-nodes)
+  0-2: 0.4725
+  12-14: 0.0330
+  15-17: 0.0440
+  18-20: 0.0110
+  21-23: 0.0110
+  24-26: 0.0220
+  27-29: 0.0110
+  3-5: 0.1758
+  30-32: 0.0110
+  33-35: 0.0110
+  36-39: 0.0110
+  6-8: 0.1209
+  9-11: 0.0659
+==================
+  P(node-caps)
+  no: 0.6000
+  yes: 0.4000
+==================
+  P(deg-malig)
+  1: 0.1111
+  2: 0.3580
+  3: 0.5309
+==================
+  P(breast)
+  left: 0.5500
+  right: 0.4500
+==================
+  P(breast-quad)
+  central: 0.0602
+  left_low: 0.3855
+  left_up: 0.3012
+  right_low: 0.0843
+  right_up: 0.1687
+==================
+  P(irradiat)
+  no: 0.6125
+  yes: 0.3875
+==================
+ >> Below are the results after testing <<
+
+no-recurrence-events 4.017731924138002E-6
+recurrence-events 7.096642912782162E-6
+Predicted class label for 0th instance was recurrence-events
+Predicted class label was no-recurrence-events and prediction was wrong! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 3.336587553818684E-4
+recurrence-events 2.60210240135346E-5
+Predicted class label for 1th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 4.70737879759242E-5
+recurrence-events 9.715041077797865E-7
+Predicted class label for 2th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 1.5163354504655905E-4
+recurrence-events 1.0219165794406312E-5
+Predicted class label for 3th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 4.345236143782871E-6
+recurrence-events 1.9205993914751727E-6
+Predicted class label for 4th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 6.000123072810081E-4
+recurrence-events 3.8804032962741955E-5
+Predicted class label for 5th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 2.071279390811688E-4
+recurrence-events 7.415569159796725E-5
+Predicted class label for 6th instance was no-recurrence-events
+Actual class label was no-recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 3.150486582669929E-4
+recurrence-events 8.934762413310772E-6
+Predicted class label for 7th instance was no-recurrence-events
+Predicted class label was recurrence-events and prediction was wrong! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 3.912394516967168E-5
+recurrence-events 6.483884504037111E-5
+Predicted class label for 8th instance was recurrence-events
+Actual class label was recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+no-recurrence-events 4.101703929078483E-5
+recurrence-events 5.283165151437644E-5
+Predicted class label for 9th instance was recurrence-events
+Actual class label was recurrence-events and prediction was correct! 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Accuracy: 80.0%
